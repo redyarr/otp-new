@@ -1,0 +1,149 @@
+
+
+.signUpContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    padding: 30px;
+    background-color:#f4f6ff;
+    border-radius: 5px;
+    width: 320px;
+    height: 550px;
+    }
+
+    
+    .signUpContainer h1:nth-child(1){
+        margin-top: 0px;
+    }
+
+    .error{
+        text-align: left;
+    }
+
+    .signUpInputs{
+        display: flex;
+        flex: content;
+        flex-direction: column;
+        text-align: left;
+        gap: 20px;
+    }
+
+
+    .name{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .name input[type="text"]{
+        width: 300px;
+        height: 25px;
+        border-radius: 3px;
+        border: 1px solid black;
+        background: transparent;
+        padding-left: 8px;
+        outline: none;
+    }
+    .email{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .email input[type="email"]{
+        width: 300px;
+        height: 25px;
+        border-radius: 3px;
+        border: 1px solid black;
+        background: transparent;
+        padding-left: 8px;
+        outline: none;
+    }
+    .pass{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .pass input[type="password"]{
+        width: 300px;
+        height: 25px;
+        border-radius: 3px;
+        border: 1px solid black;
+        background: transparent;
+        padding-left: 8px;
+        outline: none;
+    }
+
+
+
+
+    .signUpButton{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .signUpButton button{
+            width: 310px;
+            height: 30px;
+            background-color: rgb(3, 86, 239);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 5px;
+    }
+
+    .signUpWith{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .ggl{
+        display: flex;
+        width: 300px;
+        height: 30px;
+        border: 1px solid black;
+        background: transparent;
+        border-radius: 3px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .ggl img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .ggl p{
+        color: black;
+    }
+    .fb{
+        display: flex;
+        width: 300px;
+        height: 30px;
+        border: 1px solid black;
+        background: transparent;
+        border-radius: 3px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .fb img{
+        width: 20px;
+        height: 20px;    
+    }
+
+    .fb p{
+            color: black;
+    }
