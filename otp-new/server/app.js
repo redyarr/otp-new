@@ -178,24 +178,5 @@ seq.sync()
     app.listen(3000, () => console.log("Server started on port 3000"));
   });
 
-  
-//fetch("http://localhost:3000/createUser", {
-    // method:"POST"
-    // , headers:{"Content-Type":"application/json"}, 
-    // body:JSON.stringify({name:name, email:email, password:password})})
-    // .then(response=> {
-    //     response.json()
-    // }).then(result=>{
-    // if(result.valid){
-    //   console.log("the user has been created successfully");
-    //   return nav("/otp")
-    // }
-    // else{
-    //   console.log("the user has not been created successfully");
-    // }
-      
-    // }).catch((err) => {
-    //   console.log(err);
-    // });
-    //   }
+ 
     
